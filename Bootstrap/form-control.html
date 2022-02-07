@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Control</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+        #exampleFormControlInput1:focus {
+            box-shadow: 0 0 0 0.25rem rgba(201, 12, 185, 0.25);
+        }
+        /* .colum {
+            padding: 0 56px;
+        } */
+        
+        div.container .gx-5 {
+            --bs-gutter-x: 14rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row gx-5">
+            <div class="col-5 colum">
+                <div>
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+            </div>
+            <div class="col-5 colum">
+                <div>
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control form-control-md-sm" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+</body>
+
+</html>
